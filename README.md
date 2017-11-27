@@ -2,6 +2,7 @@
 dotfiles for Arch Linux
 
 #must add any and all files before commiting / pushing
+#ok..
 
 git config --global user.name "hyphenQ"
 git config --global user.email "email@domain.com"
