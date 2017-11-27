@@ -8,3 +8,6 @@ Downloads/
 .gksu.lock
 .icons/
 .ssh/id_rsa
+.zhistory
+.zprezto/
+.config/gconf/

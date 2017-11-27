@@ -12,15 +12,4 @@ application/x-extension-xhtml=userapp-Firefox-N4N99Y.desktop
 application/x-extension-xht=userapp-Firefox-N4N99Y.desktop
 
 [Added Associations]
-x-scheme-handler/http=userapp-Firefox-N4N99Y.desktop;
-x-scheme-handler/https=userapp-Firefox-N4N99Y.desktop;
-x-scheme-handler/ftp=userapp-Firefox-N4N99Y.desktop;
-x-scheme-handler/chrome=userapp-Firefox-N4N99Y.desktop;
-text/html=userapp-Firefox-N4N99Y.desktop;
-application/x-extension-htm=userapp-Firefox-N4N99Y.desktop;
-application/x-extension-html=userapp-Firefox-N4N99Y.desktop;
-application/x-extension-shtml=userapp-Firefox-N4N99Y.desktop;
-application/xhtml+xml=userapp-Firefox-N4N99Y.desktop;
-application/x-extension-xhtml=userapp-Firefox-N4N99Y.desktop;
-application/x-extension-xht=userapp-Firefox-N4N99Y.desktop;
 application/octet-stream=leafpad.desktop;

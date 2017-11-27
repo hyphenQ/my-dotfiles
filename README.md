@@ -77,3 +77,19 @@ git clone --bare git@github.com:hyphenQ/my-dotfiles.git $HOME/.cfg
 NOTE:
 Now, we can explicitly checkout the files. Again, we need to force git to overwrite our current files. We can do that by "resetting" back to the state that the files were in from our remote repo:
 git reset --hard origin/master
+< ~/.zsh/aliases.zsh
+FIXING PERMISSIONS:
+sudo chmod 600 ~/.ssh/id_rsa
+sudo chmod 600 ~/.ssh/id_rsa.pub
+sudo chmod 644 ~/.ssh/known_hosts
+sudo chmod 755 ~/.ssh
+
+START SSH-AGENT:
+eval `ssh-agent -s`
+ssh-add
+
+LIST RECENTLY INSTALLED PACKAGES:
+cat /var/log/pacman.log
+cat /var/log/pacman.log | grep -i installed
+cat /var/log/pacman.log | grep -i upgraded
+cat /var/log/pacman.log | grep -iE 'installed|upgraded'
