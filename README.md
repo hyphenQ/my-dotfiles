@@ -67,15 +67,17 @@ cd ~/.cfg (the path of your bare repository)
 git remote add <name> <url> (add your remote repository)
 git push <repository> (the name of the "remote" repository)
 
-git remote add origin https://github.com/hyphenQ/my-dotfiles.git
+git remote add origin git@github.com:hyphenQ/my-dotfiles.git
 
 TEST GITHUB LOGIN:
 ssh -T git@github.com
 
+git clone --bare git@github.com:hyphenQ/my-dotfiles.git $HOME/.cfg
+
 
 Most likely your GIT_SSH_COMMAND is referencing the incorrect public key.
 Try:
-export GIT_SSH_COMMAND="ssh -i /home/murphyslaw/.ssh/your-key.id_rsa
+export GIT_SSH_COMMAND="ssh -i /home/ace/.ssh/id_rsa"
 then
 git clone git@github.com:organization/xxx.git
 
