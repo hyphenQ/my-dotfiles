@@ -74,13 +74,6 @@ ssh -T git@github.com
 
 git clone --bare git@github.com:hyphenQ/my-dotfiles.git $HOME/.cfg
 
-
-Most likely your GIT_SSH_COMMAND is referencing the incorrect public key.
-Try:
-export GIT_SSH_COMMAND="ssh -i /home/ace/.ssh/id_rsa"
-then
-git clone git@github.com:organization/xxx.git
-
-
+NOTE:
 Now, we can explicitly checkout the files. Again, we need to force git to overwrite our current files. We can do that by "resetting" back to the state that the files were in from our remote repo:
 git reset --hard origin/master
