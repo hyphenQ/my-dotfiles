@@ -9,5 +9,6 @@ Downloads/
 .icons/
 .ssh/id_rsa
 .zhistory
-.zprezto/
+.zprezto/*
+!.zprezto/runcoms/
 .config/gconf/

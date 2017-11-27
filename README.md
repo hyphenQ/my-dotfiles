@@ -93,3 +93,6 @@ cat /var/log/pacman.log
 cat /var/log/pacman.log | grep -i installed
 cat /var/log/pacman.log | grep -i upgraded
 cat /var/log/pacman.log | grep -iE 'installed|upgraded'
+
+
+git config --global core.excludesfile ~/.gitignore_global

@@ -22,3 +22,5 @@
 
 [help]
     autocorrect = 1
+[core]
+	excludesfile = /home/ace/.gitignore_global
