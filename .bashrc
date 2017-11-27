@@ -7,6 +7,6 @@
 
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
-alias config='/usr/bin/git --git-dir=/home/ace/.cfg/ --work-tree=/home/ace'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 export EDITOR='nano'
 export VISUAL='nano'
