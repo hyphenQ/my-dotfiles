@@ -1,0 +1,5 @@
+[user]
+	email = hy.phen@yandex.com
+	name = hyphenQ
+[alias]
+	nccommit = commit -a --allow-empty-message -m \"\"
