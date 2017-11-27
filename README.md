@@ -68,3 +68,14 @@ git remote add <name> <url> (add your remote repository)
 git push <repository> (the name of the "remote" repository)
 
 git remote add origin https://github.com/hyphenQ/my-dotfiles.git
+
+TEST GITHUB LOGIN:
+ssh -T git@github.com
+
+
+Most likely your GIT_SSH_COMMAND is referencing the incorrect public key.
+Try:
+export GIT_SSH_COMMAND="ssh -i /home/murphyslaw/.ssh/your-key.id_rsa
+then
+git clone git@github.com:organization/xxx.git
+
