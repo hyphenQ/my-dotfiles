@@ -19,6 +19,9 @@ Downloads/
 .config/leafpad/
 .config/htop/
 .zcompdump
+.esd_auth
+.nv/
+.config/pulse/
 
 # Compiled source #
 ###################
