@@ -28,7 +28,7 @@ zstyle -s ':prezto:module:git:status:ignore' submodules '_git_status_ignore_subm
 
 if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   # Git
-  alias g='git'
+  # alias g='git'
 
   # Branch (b)
   alias gb='git branch'

@@ -12,6 +12,7 @@ fi
 
 # Customize to your needs...
 source ~/.config/zprezto/setopt.zsh
+source ~/.local/bin/bashmarks.sh
 
 conf() {
 	case $1 in
@@ -52,10 +53,14 @@ alias configadd='config add .'
 alias configcommit='config commit -m '
 alias configpush='config push origin master'
 
+# Misc
+alias nc="--noconfirm"
+
 # Programs
 alias installfont='sudo fc-cache -f -v'
 alias alsamixer="alsamixer -g"
 alias equalizer="alsamixer -D equal"
+alias pacman="sudo pacman"
 
 #alias mkdir and cd
 function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
