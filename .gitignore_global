@@ -80,6 +80,9 @@ Downloads/
 .zhistory
 .config/gconf/
 .zprezto/
+.config/dconf/
+.config/leafpad/
+.config/htop/
 
 # Documents #
 #############
