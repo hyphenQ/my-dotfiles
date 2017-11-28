@@ -10,3 +10,4 @@ Downloads/
 .ssh/id_rsa
 .zhistory
 .config/gconf/
+.zprezto/*
