@@ -1,0 +1,102 @@
+type: "MARKDOWN_NOTE"
+folder: "07b956d14fca01cc65ab"
+title: "Code Examples"
+content: '''
+  # Code Examples
+  ![Image of Flow Process](https://content-static.upwork.com/blog/uploads/sites/3/2015/05/05110037/Front-end-dev1.png)
+  <span style="color:red">some **This is Red Bold.** text</span>
+  
+  If you'd like to quote someone, use the > character before the line:
+  
+  > Coffee. The finest organic suspension ever devised... I beat the Borg with it.
+  > - Captain Janeway
+  > 
+  ```javascript
+  function fancyAlert(arg) {
+    if(arg) {
+      $.facebox({div:'#foo'})
+    }
+  }
+  ```
+  
+  > Blockquotes are very handy in email to emulate reply text.
+  > This line is part of the same quote.
+  
+  Quote break.
+  
+  > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+  
+  ```python
+  def foo():
+      if not bar:
+          return True
+  ```
+  
+  @octocat :+1: This PR looks great - it's ready to merge! :shipit:
+  :cat:
+  
+  <details><summary>Boostnote is a notepad corresponding to markdown notation, which is a tool for organizing and sharing information.</summary>
+  
+  - Features - <br>
+  
+  · Search function to find memos in one shot
+  
+  · Supports markdown notation <br>
+  
+  · Support for Mac, Windows, Linux, iOS, Android <br>
+  
+  · Export and import to Plain text (.txt), Markdown (.md) format <br>
+  
+  · Supports PDF saving <br>
+  
+  · Can be used offline <br>
+  
+  · Synchronize to dropbox etc. with setting <br>
+  
+  · Supports theme colors and numerous fonts <br>
+  
+  </details>
+  
+  ```flowchart
+  
+  st=>start: Start:>http://www.google.com[blank]
+  
+  e=>end:>http://www.google.com
+  
+  op1=>operation: My Operation
+  
+  sub1=>subroutine: My Subroutine
+  
+  cond=>condition: Yes or No?:>http://www.google.com
+  
+  io=>inputoutput: catch something…
+  
+  st->op1->cond
+  
+  cond(yes)->io->e
+  
+  cond(no)->sub1(right)->op1
+  
+  ```
+  
+  ```sequence
+  
+  Title: Here is a title
+  
+  A-> B: Normal line
+  
+  B -> C: Dashed line
+  
+  C -> D: Open arrow
+  
+  D -> A: Dashed open arrow
+  
+  ```
+  
+  @github/support What do you think about these updates?
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-12-01T01:52:12.224Z"
+updatedAt: "2017-12-01T01:52:33.234Z"

@@ -85,3 +85,4 @@ export XDG_CONFIG_HOME="/home/ace/.config"
 #        path+=$dir
 #    fi
 #done
+export PATH=$HOME/local/bin:$PATH

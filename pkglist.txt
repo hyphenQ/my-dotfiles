@@ -1,4 +1,6 @@
 acpi
+alsa-utils
+artwiz-fonts
 aterm
 autoconf
 automake
@@ -6,6 +8,7 @@ bash
 bash-completion
 binutils
 bison
+boostnote
 breeze-gtk
 broadcom-wl-dkms
 bspwm-git
@@ -27,6 +30,7 @@ filesystem
 findutils
 firefox-beta-bin
 flex
+font-manager
 gawk
 gcc
 gcc-libs
@@ -37,6 +41,7 @@ grep
 groff
 gzip
 htop
+imagemagick
 inetutils
 innoextract
 intel-ucode
@@ -46,6 +51,8 @@ iw
 jfsutils
 leafpad
 less
+libcanberra-gstreamer
+libcanberra-pulse
 libtool
 licenses
 linux
@@ -58,10 +65,14 @@ make
 man-db
 man-pages
 mdadm
+messengerfordesktop
+mpv
 nano
 nautilus
 netctl
 noto-fonts
+numix-circle-icon-theme-git
+numix-icon-theme-git
 nvidia-dkms
 nvidia-settings
 nvidia-utils
@@ -80,6 +91,9 @@ powerline
 powerline-fonts
 procps-ng
 psmisc
+pulseaudio
+pulseaudio-alsa
+reflector
 reiserfsprogs
 rofi
 rxvt-unicode
@@ -99,12 +113,16 @@ texinfo
 ttf-camingocode
 ttf-dejavu
 ttf-font-awesome
+ttf-font-icons
 ttf-liberation
+ttf-material-icons
 unrar
 unzip
 usbutils
 util-linux
 vi
+vlc-qt5
+wget
 which
 wpa_supplicant
 xfsprogs
@@ -116,4 +134,6 @@ xorg-xlsfonts
 xorg-xrandr
 xorg-xset
 yaourt
+zathura
+zathura-pdf-mupdf
 zsh

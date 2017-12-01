@@ -1,0 +1,72 @@
+type: "MARKDOWN_NOTE"
+folder: "07b956d14fca01cc65ab"
+title: "Examples - Stefan"
+content: '''
+  
+  
+  
+  ```
+  # We import the markdown library
+  
+  import markdown
+  from flask import Flask
+  from flask import render_template
+  from flask import Markup
+  
+  app = Flask(__name__)
+  @app.route('/')
+  
+  def index():
+    content = """
+  ```
+  
+  Examples - Stefan
+  =======
+  
+  Section
+  -------
+  
+  * Item 1
+  * Item 2
+  """
+    content = Markup(markdown.markdown(content))
+    return render_template('index.html', **locals())
+  
+  app.run(debug=True)
+  
+  # 2Test
+  _______
+  
+  ## Test
+  -------
+  
+  ### Test
+  #### Test
+  ##### Test
+  ###### Test
+  How are you.[^1]
+  
+  ```
+  <header>
+      <h1>{{title}}</h1>
+  </header>
+  ```
+  
+  </> adasd adas [^longnote]
+  </>
+  dasda
+  
+  [^1]: Test 1
+  
+  [^longnote]: Here's one with multiple blocks.
+  
+  
+'''
+tags: [
+  "python"
+]
+isStarred: false
+isTrashed: false
+createdAt: "2017-12-01T01:37:17.398Z"
+updatedAt: "2017-12-01T01:37:57.810Z"
+isPinned: false

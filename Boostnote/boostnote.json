@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "key": "07b956d14fca01cc65ab",
+      "color": "#1278BD",
+      "name": "Default"
+    },
+    {
+      "key": "9329882cedad86cc7047",
+      "color": "#E8D252",
+      "name": "Archlinux Install"
+    },
+    {
+      "key": "3dda324c5bc25ba36056",
+      "color": "#FF8E00",
+      "name": "Web Development"
+    }
+  ],
+  "version": "1.0"
+}

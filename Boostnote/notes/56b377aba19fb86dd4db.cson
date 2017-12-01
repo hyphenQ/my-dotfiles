@@ -1,0 +1,21 @@
+type: "SNIPPET_NOTE"
+folder: "3dda324c5bc25ba36056"
+title: "Testing 1"
+description: "Testing 1"
+snippets: [
+  {
+    name: "Fresh Install Commands"
+    mode: "text"
+    content: '''
+      pacaur -S test test 2 test 3
+      
+    '''
+  }
+]
+tags: [
+  "stest"
+]
+isStarred: false
+isTrashed: true
+createdAt: "2017-12-01T01:35:12.068Z"
+updatedAt: "2017-12-01T01:38:06.634Z"
